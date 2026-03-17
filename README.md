@@ -33,3 +33,46 @@
 
 ```bash
 src/app/api/
+
+src/app/api/
+├── auth/
+│   ├── register/route.ts
+│   └── login/route.ts
+│
+├── profile/
+│   ├── student/route.ts
+│   ├── student/update/route.ts
+│   ├── employer/route.ts
+│   └── employer/update/route.ts
+│
+├── vacancies/
+│   ├── route.ts
+│   ├── create/route.ts
+│   ├── my/route.ts
+│   └── [id]/
+│       ├── route.ts
+│       ├── update/route.ts
+│       └── delete/route.ts
+│
+├── applications/
+│   ├── apply/route.ts
+│   ├── student/route.ts
+│   ├── employer/route.ts
+│   └── status/route.ts
+│
+├── favorites/
+│   ├── route.ts
+│   ├── add/route.ts
+│   └── remove/route.ts
+│
+├── admin/
+│   ├── users/route.ts
+│   ├── users/block/route.ts
+│   ├── users/unblock/route.ts
+│   ├── vacancies/route.ts
+│   ├── vacancies/delete/route.ts
+│   ├── categories/route.ts
+│   ├── categories/create/route.ts
+│   └── categories/delete/route.ts
+│
+└── test/route.ts
